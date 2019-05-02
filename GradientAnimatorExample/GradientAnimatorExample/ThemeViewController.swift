@@ -23,18 +23,24 @@ class ThemeViewController: UIViewController {
         switch sender.tag {
         case 0:
             Colors.shared.themeColor = GradientThemes.SolidStone
+            self.title = "Solid Stone"
         case 1:
             Colors.shared.themeColor = GradientThemes.BlueLagoon
+             self.title = "BlueLagoon"
         case 2:
             Colors.shared.themeColor = GradientThemes.Sunrise
+             self.title = "Sunrise"
         case 3:
             Colors.shared.themeColor = GradientThemes.DIMIGO
+             self.title = "DIMIGO"
         case 4:
             Colors.shared.themeColor = GradientThemes.GentleCare
+             self.title = "GentleCare"
         default:
             break
         }
         self.view.setGradient()
+        
     }
 
 
