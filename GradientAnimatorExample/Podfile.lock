@@ -1,0 +1,16 @@
+PODS:
+  - GradientAnimator (1.0.0)
+
+DEPENDENCIES:
+  - GradientAnimator (from `../GradientAnimator/`)
+
+EXTERNAL SOURCES:
+  GradientAnimator:
+    :path: "../GradientAnimator/"
+
+SPEC CHECKSUMS:
+  GradientAnimator: 9487743fd094bbaaef8e88d630dfbe1d486f9977
+
+PODFILE CHECKSUM: b386d3151cf80c1e89f422a5a6af0957d8262f16
+
+COCOAPODS: 1.6.0

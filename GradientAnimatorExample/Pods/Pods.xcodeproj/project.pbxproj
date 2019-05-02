@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		215A9FE3B2B1B5430A94FAC7E040D63F /* GradientAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = D9797526A0D8A9C0FDDDA5891169B1BA /* GradientAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		257650F9B0FCBEBE247DEE19049F100C /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 424EF60BE73EE2288998E3F95F389F40 /* Info.plist */; };
+		3F1B7D5872466855D69B281DA299F0DB /* GradientAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3C13A028FEFCD8FD82D779407148B4 /* GradientAnimator-dummy.m */; };
+		9679B9BB89DD5B57F9379FD12AF1E593 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C7BF265883DD6E6B1C08D00BD22CA3D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		D91BCED81CB4BFBADC15520FCF483930 /* Pods-GradientAnimatorExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81724E3F291E8B6DD09466C837BFDC4A /* Pods-GradientAnimatorExample-dummy.m */; };
+		DBEFF9EFF9886B0224F8DDD7322214E1 /* GradientAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 416A69DB22ECEAAC65013085DE9D7895 /* GradientAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCB1CCADD5E55BAEA9D3897ACD3437B8 /* GradientAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2ADEA9DD7E9D7831F708F9C51B5EC3 /* GradientAnimator.swift */; };
+		EE9CA9E83BEB5A4905A985E1158675C4 /* Pods-GradientAnimatorExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE38922B952E130D358EFE603BB359B7 /* Pods-GradientAnimatorExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C98A2320CFB13183FE9974B3C41C64B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13C0160A6C4A88F01672374F2F09D4D5;
+			remoteInfo = GradientAnimator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EBB6F6F5C1E2E5731046572CB0907D /* Pods-GradientAnimatorExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GradientAnimatorExample-frameworks.sh"; sourceTree = "<group>"; };
+		0A2ADEA9DD7E9D7831F708F9C51B5EC3 /* GradientAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientAnimator.swift; path = GradientAnimator/GradientAnimator.swift; sourceTree = "<group>"; };
+		1BEB2C771319F095FD41747A7133D982 /* Pods-GradientAnimatorExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GradientAnimatorExample-Info.plist"; sourceTree = "<group>"; };
+		267CD32B2E2AB12CCA4B007D6916E8C7 /* Pods-GradientAnimatorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GradientAnimatorExample.release.xcconfig"; sourceTree = "<group>"; };
+		2A4A505F65E5EF1953D29628991E2CDC /* Pods-GradientAnimatorExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GradientAnimatorExample.modulemap"; sourceTree = "<group>"; };
+		304A0B561D62B63F7D164E915C9BB5EB /* GradientAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientAnimator-prefix.pch"; sourceTree = "<group>"; };
+		416A69DB22ECEAAC65013085DE9D7895 /* GradientAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientAnimator-umbrella.h"; sourceTree = "<group>"; };
+		424EF60BE73EE2288998E3F95F389F40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = GradientAnimator/Info.plist; sourceTree = "<group>"; };
+		4D3C13A028FEFCD8FD82D779407148B4 /* GradientAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GradientAnimator-dummy.m"; sourceTree = "<group>"; };
+		688362EA20D1AA8D3DEEA55E7E2D2E4D /* Pods-GradientAnimatorExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GradientAnimatorExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		762612DA75DE65A24EDE3E8B09D258BD /* GradientAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GradientAnimator.modulemap; sourceTree = "<group>"; };
+		7B4DCB82ED94A7BB95E47224E591F38C /* GradientAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GradientAnimator-Info.plist"; sourceTree = "<group>"; };
+		81724E3F291E8B6DD09466C837BFDC4A /* Pods-GradientAnimatorExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GradientAnimatorExample-dummy.m"; sourceTree = "<group>"; };
+		895B0DCA8A098CA9B31882509F2F041D /* GradientAnimator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GradientAnimator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A617C4ACD8EC9579F927DA7E46D20958 /* GradientAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GradientAnimator.framework; path = GradientAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE174F89A5AFCBD3695D64C9B0B8E05A /* GradientAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GradientAnimator.xcconfig; sourceTree = "<group>"; };
+		CA86F3BF64111F753EB6C77042276271 /* Pods_GradientAnimatorExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GradientAnimatorExample.framework; path = "Pods-GradientAnimatorExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE38922B952E130D358EFE603BB359B7 /* Pods-GradientAnimatorExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GradientAnimatorExample-umbrella.h"; sourceTree = "<group>"; };
+		D9797526A0D8A9C0FDDDA5891169B1BA /* GradientAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GradientAnimator.h; path = GradientAnimator/GradientAnimator.h; sourceTree = "<group>"; };
+		DF70A54AB0BA2A206840443C65521DD0 /* Pods-GradientAnimatorExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GradientAnimatorExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		FFAAD97FAA7FF5E7616BC393BE526E05 /* Pods-GradientAnimatorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GradientAnimatorExample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37A405C07C8EBF7BCDFF2F837F9F3544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9679B9BB89DD5B57F9379FD12AF1E593 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9CC6F043246C033874CE1A58EB1F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BF265883DD6E6B1C08D00BD22CA3D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5846208E2CAB2A1152C9D06ADA45E88D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				762612DA75DE65A24EDE3E8B09D258BD /* GradientAnimator.modulemap */,
+				AE174F89A5AFCBD3695D64C9B0B8E05A /* GradientAnimator.xcconfig */,
+				4D3C13A028FEFCD8FD82D779407148B4 /* GradientAnimator-dummy.m */,
+				7B4DCB82ED94A7BB95E47224E591F38C /* GradientAnimator-Info.plist */,
+				304A0B561D62B63F7D164E915C9BB5EB /* GradientAnimator-prefix.pch */,
+				416A69DB22ECEAAC65013085DE9D7895 /* GradientAnimator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../GradientAnimatorExample/Pods/Target Support Files/GradientAnimator";
+			sourceTree = "<group>";
+		};
+		7ACA37EC9C1643A73B1D29A1397DFC8F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D3B053FBA11F9382F3030C46F98DC1F /* GradientAnimator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7CC1119169841E32AE0864D58F9E5663 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4B2527434C24B996927D3012E809B35 /* Pods-GradientAnimatorExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7D3B053FBA11F9382F3030C46F98DC1F /* GradientAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				D9797526A0D8A9C0FDDDA5891169B1BA /* GradientAnimator.h */,
+				0A2ADEA9DD7E9D7831F708F9C51B5EC3 /* GradientAnimator.swift */,
+				424EF60BE73EE2288998E3F95F389F40 /* Info.plist */,
+				AEA9556F7CBA9436802C2B678522D1B0 /* Pod */,
+				5846208E2CAB2A1152C9D06ADA45E88D /* Support Files */,
+			);
+			name = GradientAnimator;
+			path = ../../GradientAnimator;
+			sourceTree = "<group>";
+		};
+		9013283069A31B1B96C0DE4E97E3A34E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A617C4ACD8EC9579F927DA7E46D20958 /* GradientAnimator.framework */,
+				CA86F3BF64111F753EB6C77042276271 /* Pods_GradientAnimatorExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AEA9556F7CBA9436802C2B678522D1B0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				895B0DCA8A098CA9B31882509F2F041D /* GradientAnimator.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7ACA37EC9C1643A73B1D29A1397DFC8F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9013283069A31B1B96C0DE4E97E3A34E /* Products */,
+				7CC1119169841E32AE0864D58F9E5663 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4B2527434C24B996927D3012E809B35 /* Pods-GradientAnimatorExample */ = {
+			isa = PBXGroup;
+			children = (
+				2A4A505F65E5EF1953D29628991E2CDC /* Pods-GradientAnimatorExample.modulemap */,
+				688362EA20D1AA8D3DEEA55E7E2D2E4D /* Pods-GradientAnimatorExample-acknowledgements.markdown */,
+				DF70A54AB0BA2A206840443C65521DD0 /* Pods-GradientAnimatorExample-acknowledgements.plist */,
+				81724E3F291E8B6DD09466C837BFDC4A /* Pods-GradientAnimatorExample-dummy.m */,
+				03EBB6F6F5C1E2E5731046572CB0907D /* Pods-GradientAnimatorExample-frameworks.sh */,
+				1BEB2C771319F095FD41747A7133D982 /* Pods-GradientAnimatorExample-Info.plist */,
+				CE38922B952E130D358EFE603BB359B7 /* Pods-GradientAnimatorExample-umbrella.h */,
+				FFAAD97FAA7FF5E7616BC393BE526E05 /* Pods-GradientAnimatorExample.debug.xcconfig */,
+				267CD32B2E2AB12CCA4B007D6916E8C7 /* Pods-GradientAnimatorExample.release.xcconfig */,
+			);
+			name = "Pods-GradientAnimatorExample";
+			path = "Target Support Files/Pods-GradientAnimatorExample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AC9F5233037293A9B56B5212661C131 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEFF9EFF9886B0224F8DDD7322214E1 /* GradientAnimator-umbrella.h in Headers */,
+				215A9FE3B2B1B5430A94FAC7E040D63F /* GradientAnimator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E439AECE50BEBEDA0447A818BFD88406 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9CA9E83BEB5A4905A985E1158675C4 /* Pods-GradientAnimatorExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13C0160A6C4A88F01672374F2F09D4D5 /* GradientAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDDF58F6063E18EDECEFBA7180CE8E8 /* Build configuration list for PBXNativeTarget "GradientAnimator" */;
+			buildPhases = (
+				3AC9F5233037293A9B56B5212661C131 /* Headers */,
+				D27282726944DF622A727A77D11FB3AE /* Sources */,
+				37A405C07C8EBF7BCDFF2F837F9F3544 /* Frameworks */,
+				D30153C7C2657560CF01A7BEDF5AE44A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientAnimator;
+			productName = GradientAnimator;
+			productReference = A617C4ACD8EC9579F927DA7E46D20958 /* GradientAnimator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E161F22528A525794E1F79FD107A357E /* Pods-GradientAnimatorExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994974BACB2B5AE18592DBA0DEE58C1C /* Build configuration list for PBXNativeTarget "Pods-GradientAnimatorExample" */;
+			buildPhases = (
+				E439AECE50BEBEDA0447A818BFD88406 /* Headers */,
+				E102D80D3FE8DCFA52312935910CEFE6 /* Sources */,
+				5D9CC6F043246C033874CE1A58EB1F3D /* Frameworks */,
+				9EA40D18F7A643818E2A88E421510793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7704EC68D713CB575B8C16E7F5F6322 /* PBXTargetDependency */,
+			);
+			name = "Pods-GradientAnimatorExample";
+			productName = "Pods-GradientAnimatorExample";
+			productReference = CA86F3BF64111F753EB6C77042276271 /* Pods_GradientAnimatorExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9013283069A31B1B96C0DE4E97E3A34E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13C0160A6C4A88F01672374F2F09D4D5 /* GradientAnimator */,
+				E161F22528A525794E1F79FD107A357E /* Pods-GradientAnimatorExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EA40D18F7A643818E2A88E421510793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30153C7C2657560CF01A7BEDF5AE44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27282726944DF622A727A77D11FB3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1B7D5872466855D69B281DA299F0DB /* GradientAnimator-dummy.m in Sources */,
+				DCB1CCADD5E55BAEA9D3897ACD3437B8 /* GradientAnimator.swift in Sources */,
+				257650F9B0FCBEBE247DEE19049F100C /* Info.plist in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E102D80D3FE8DCFA52312935910CEFE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91BCED81CB4BFBADC15520FCF483930 /* Pods-GradientAnimatorExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7704EC68D713CB575B8C16E7F5F6322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GradientAnimator;
+			target = 13C0160A6C4A88F01672374F2F09D4D5 /* GradientAnimator */;
+			targetProxy = 2C98A2320CFB13183FE9974B3C41C64B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		338E23AE9383AB7F50C04593852EA131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE174F89A5AFCBD3695D64C9B0B8E05A /* GradientAnimator.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GradientAnimator/GradientAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GradientAnimator/GradientAnimator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GradientAnimator/GradientAnimator.modulemap";
+				PRODUCT_MODULE_NAME = GradientAnimator;
+				PRODUCT_NAME = GradientAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AFBC6F4CCC99C5878D41E439D47AE3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFAAD97FAA7FF5E7616BC393BE526E05 /* Pods-GradientAnimatorExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GradientAnimatorExample/Pods-GradientAnimatorExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GradientAnimatorExample/Pods-GradientAnimatorExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BEF4593813EC3BA2B07450E04127E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 267CD32B2E2AB12CCA4B007D6916E8C7 /* Pods-GradientAnimatorExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GradientAnimatorExample/Pods-GradientAnimatorExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GradientAnimatorExample/Pods-GradientAnimatorExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B1E653C498AAE8D4A7AF963B834F9D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE174F89A5AFCBD3695D64C9B0B8E05A /* GradientAnimator.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GradientAnimator/GradientAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GradientAnimator/GradientAnimator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GradientAnimator/GradientAnimator.modulemap";
+				PRODUCT_MODULE_NAME = GradientAnimator;
+				PRODUCT_NAME = GradientAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDDF58F6063E18EDECEFBA7180CE8E8 /* Build configuration list for PBXNativeTarget "GradientAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E653C498AAE8D4A7AF963B834F9D74 /* Debug */,
+				338E23AE9383AB7F50C04593852EA131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994974BACB2B5AE18592DBA0DEE58C1C /* Build configuration list for PBXNativeTarget "Pods-GradientAnimatorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AFBC6F4CCC99C5878D41E439D47AE3F /* Debug */,
+				5BEF4593813EC3BA2B07450E04127E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_GradientAnimatorExample {
+  umbrella header "Pods-GradientAnimatorExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
