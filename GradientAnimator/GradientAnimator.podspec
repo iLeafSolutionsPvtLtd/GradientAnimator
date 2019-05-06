@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Jaison Joseph" => "jaison@ileafsolutions.com" }
   spec.platform     = :ios, "11.0"
   spec.swift_version = '4.2'
-spec.source       = { :git => "https://github.com/iLeafSolutionsPvtLtd/GradientAnimator.git",:branch => "master" ,:tag => "1.0.0" }
+spec.source       = { :git => "https://github.com/iLeafSolutionsPvtLtd/GradientAnimator.git",:branch => "master" ,:tag => "1.0.1" }
 
   spec.source_files  = "GradientAnimator", "GradientAnimator/**/*"
   spec.exclude_files = "GradientAnimator/GradientAnimator/*.plist"
