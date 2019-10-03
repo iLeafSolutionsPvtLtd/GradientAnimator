@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -128,6 +128,7 @@
 				TargetAttributes = {
 					7862A7C8227AFD110085ABB3 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -169,16 +170,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GradientAnimatorExample/Pods-GradientAnimatorExample-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GradientAnimator/GradientAnimator.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GradientAnimatorExample/Pods-GradientAnimatorExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GradientAnimator.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GradientAnimatorExample/Pods-GradientAnimatorExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -373,7 +369,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ileaf.GradientAnimatorExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -392,7 +388,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ileaf.GradientAnimatorExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
