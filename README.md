@@ -9,12 +9,12 @@ GradientAnimator helps to fill your view with vibrant gradient theme colours and
 
 ## Installation
 
-Cocoapods installation is available  " pod 'GradientAnimator', '~> 1.0' "
+Cocoapods installation is available  " pod 'GradientAnimator', '~> 1.0.2' "
 
 ### Compatibility
 
 -  iOS 11.0+
-- Swift 4.2
+- Swift 5
 
 ## Usage
 1)  After installing the library import GradientAnimator to your controller
