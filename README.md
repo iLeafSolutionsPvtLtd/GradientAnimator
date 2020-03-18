@@ -9,7 +9,7 @@ GradientAnimator helps to fill your view with vibrant gradient theme colours and
 
 ## Installation
 
-Cocoapods installation is available  " pod 'GradientAnimator', '~> 1.3' "
+Cocoapods installation is available  " pod 'GradientAnimator', '~> 1.3.1' "
 
 ### Compatibility
 
